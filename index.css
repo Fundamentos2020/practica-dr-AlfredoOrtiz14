@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 @media(min-width:0px){
@@ -39,4 +40,78 @@
 
 .flex{
     display: flex;
+}
+
+.Encabezado{
+    background-color: tomato;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.border{
+    border: lightgrey solid 1px;
+}
+
+.foto{
+    align-items: center;
+    text-align: center;
+}
+
+.p-1{
+    padding: 1em;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.bt{
+    border-top: 1px solid gray;
+}
+
+.rojo{
+    background-color: red;
+    color: white;
+}
+
+.morado{
+    background-color:violet;
+    color: white;
+}
+
+.azul{
+    background-color:blue;
+    color: white;
+}
+
+.verde{
+    background-color:green;
+    color: white;
+}
+
+.amarillo{
+    background-color: yellow;
+    color: white;
+}
+
+.naranja{
+    background-color: orange;
+    color: white;
+}
+
+.colores{
+    height: 2em;
+    font-family: sans-serif;
+    text-indent: 1.5em;
+    text-align: justify;
+}
+
+.titulo{
+    font-size: 20px;
+    font-style: initial;
 }
